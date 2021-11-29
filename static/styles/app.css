@@ -1,0 +1,65 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body, html {
+	overflow: hidden;
+	font-size: 16px;
+	font-family: helvetica, arial;
+	background: #f9f9f9;
+	color: #111;
+}
+
+body {
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+
+.question {
+	padding: 5px;
+	font-weight: 500;
+	margin-bottom: 50px;
+}
+
+.buttons {
+	list-style: none;
+	width: 70vw;
+	margin: 0 auto;
+}
+
+.button {
+	border: 0;
+	border-radius: 10px;
+	background: #6477EB;
+	color: #fff;
+	width: 100%;
+	padding: 10px 25px;
+	font-size: 15pt;
+	margin: 2px 0;
+	cursor: pointer;
+}
+
+.count {
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 100px;
+}
+
+.button_wrong {
+	background: #EB6465;
+}
+
+.button_correct {
+	background: #5EB97D;
+}
+
+.button_passive {
+	background: #B3B3B3;
+}
